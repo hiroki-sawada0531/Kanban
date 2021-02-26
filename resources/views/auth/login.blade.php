@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layouts.app')
 
 @section('content')
 <div class="signinPage">
@@ -24,7 +24,7 @@
 
             <div class="form-group">
                 <label for="user_password">パスワード</label><br>
-                <label id="password" type="password" class="form-control" name="password" required>
+                <input id="password" type="password" class="form-control" name="password" required>
                 @if ($errors->has('password'))
                     <span class="help-block">
                         <strong>{{ $errors->first('password') }}</strong>
