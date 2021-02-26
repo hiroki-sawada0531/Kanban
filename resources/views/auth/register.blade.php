@@ -6,11 +6,11 @@
         <h1>アカウントを新規作成</h1>
             <div class="m-3">or</div>
                 <p class="accountPage_link"><a href="{{ route('login') }}">アカウントにサインイン</a></p>
-            </div>
+    </div>
             <div class="container">
                 <form class="mt-5, signupForm" id="new_user" action="{{ route('register') }}" accept-charset="UTF-8" method="post">
                 {{ csrf_field() }}
-                    <div class="form-group{{ $errors->has('name')? 'has-error': }}">
+                    <div class="form-group{{ $errors->has('name')? 'has-error':'' }}">
                         <label for="user_name">お名前</label>
                         <input class="form-control" placeholder="名前を入力して下さい" type="text" name="name" value="{{ old('name') }}" required autofocus>
                     @if ($errors->has('name'))
@@ -20,7 +20,7 @@
                     @endif
                     </div>
 
-                    <div class="form-group{{ $errors->has('email')? 'has-error': }}">
+                    <div class="form-group{{ $errors->has('email')? 'has-error':'' }}">
                         <label for="user-email">メールアドレス</label>
                         <input class="form-control" placeholder="emailを入力してください" autocomplete="email" type="email" value="{{ old('email') }}" required>
                             @if ($errors->has('email'))
@@ -30,7 +30,7 @@
                             @endif
                     </div>
 
-                    <div class="form-group{{ $errors->has('password')? 'has-error': }}">
+                    <div class="form-group{{ $errors->has('password')? 'has-error':'' }}">
                         <label for="user_password">パスワード</label>
                         <em>(６文字以上入力してください)</em>
                         <br>
@@ -48,9 +48,9 @@
                     </div>
 
                     <div class="text-center">
-                        <inputb type="submit" name="commit" value="アカウントを作成" class="btn submitBtn" data-disable-with="アカウントを作成">
+                        <input type="submit" name="commit" value="アカウントを作成" class="btn submitBtn" data-disable-with="アカウントを作成">
                     <div>
                 </form>
             </div>
-        </div>
+</div>
 @endsection
