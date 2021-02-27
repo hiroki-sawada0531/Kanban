@@ -8,73 +8,61 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Kanban</title>
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Styles(ローカルの場合、secure_asset=>assetにすること) -->
+    <link href="{{ secure_asset('css/sign_up.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/sign_in.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/app.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/top.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/button.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/common.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/header.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/card_new.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/card_show.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/card_edit.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/list_new.css'} })" rel="stylesheet">
+    <link href="{{ secure_asset('css/list_edit.css'} })" rel="stylesheet">
+
+    <!-- awesome fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- bootstrap -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-
-                    <!-- Collapsed Hamburger -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <!-- Branding Image -->
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
-                    </a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <!-- Authentication Links -->
-                        @guest
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
-                        @else
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-
-                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                            {{ csrf_field() }}
-                                        </form>
-                                    </li>
-                                </ul>
-                            </li>
-                        @endguest
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        @yield('content')
-    </div>
-
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+<!-- ログインしている場合のみヘッダーを表示する -->
+@auth
+<header class="header">
+    <nav class="nav">
+        <ul class="header_menu">
+            <li class="nav-link">{{ Auth::user()->name }}さん</li>
+            <li class="header_menu_title">
+                <a class="nav-link listNew" href="/">kanban</a>
+            </li>
+            <li>
+                <ul class="header_menu_inner">
+                    <li>
+                        <a class="nav-link listNew" href="{{ reute('new') }}">リストを作成</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();">
+                        ログアウト
+                        </a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display:none;">
+                            {{ csrf_field() }}
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+@endauth
+@yield('content')
 </body>
 </html>
