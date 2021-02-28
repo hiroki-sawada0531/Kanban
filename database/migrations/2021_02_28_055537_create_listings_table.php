@@ -15,6 +15,8 @@ class CreateListingsTable extends Migration
     {
         Schema::create('listings', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('title');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
