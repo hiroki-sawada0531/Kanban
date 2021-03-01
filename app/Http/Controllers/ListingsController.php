@@ -46,4 +46,32 @@ class ListingsController extends Controller
         return redirect('/');
     }
 
+    public function edit($listing_id)
+    {
+        $listing = Listing::find($listing_id);
+        return view('listing/edit', ['listing' => $listing]);
+    }
+
+    public function update(Request $request)
+    {
+        $validator = Validator::make($request->all(), ['list_name' => 'required|max:255',]);
+
+        if($validator->fails())
+        {
+            return redirect()->back()->eithErrors($validator->errors())->withInput();
+        }
+
+        $listing = Listing::find($request->id);
+        $listing->title = $request->list_name;
+        $listing->save();
+        return redirect('/');
+    }
+
+    public function destroy($listing_id)
+    {
+        $listing = Listing::find($listing_id);
+        $listing->delete();
+        return redirect('/');
+    }
+
 }
