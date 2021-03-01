@@ -58,7 +58,7 @@ class ListingsController extends Controller
 
         if($validator->fails())
         {
-            return redirect()->back()->eithErrors($validator->errors())->withInput();
+            return redirect()->back()->withErrors($validator->errors())->withInput();
         }
 
         $listing = Listing::find($request->id);
