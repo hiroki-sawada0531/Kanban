@@ -22,7 +22,7 @@
 
                     <div class="form-group{{ $errors->has('email')? 'has-error':'' }}">
                         <label for="user-email">メールアドレス</label>
-                        <input class="form-control" placeholder="emailを入力してください" autocomplete="email" type="email" value="{{ old('email') }}" required>
+                        <input class="form-control" placeholder="emailを入力してください" autocomplete="email" type="email" name="email" value="{{ old('email') }}" required autofocus>
                             @if ($errors->has('email'))
                             <span class="help-block">
                                 <strong>{{ $errors->first('email') }}</strong>
@@ -34,7 +34,7 @@
                         <label for="user_password">パスワード</label>
                         <em>(６文字以上入力してください)</em>
                         <br>
-                        <input class="form-control" placeholder="パスワードを入力してください" autocomplete="off" type="password" required>
+                        <input class="form-control" placeholder="パスワードを入力してください" autocomplete="off" type="password" name="password" required>
                             @if ($errors->has('password'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('password') }}</strong>
