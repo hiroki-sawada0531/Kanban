@@ -1,23 +1,23 @@
 body {
   overflow: visible;
 }
-.signupPage {
+.sinupPage {
   margin-top: 10vh;
 }
-.signupPage .titleArea {
+.sinupPage .titleArea {
   text-align: center;
 }
-.signupPage .titleArea h1 {
+.sinupPage .titleArea h1 {
   font-size: 2rem;
 }
-.signupPage .signupForm .form-group {
+.sinupPage .signupForm .form-group {
   margin: 0 auto 1.5rem auto;
   max-width: 500px;
 }
-.signupPage .signupForm .form-group .form-control {
+.sinupPage .signupForm .form-group .form-control {
   background: #f6f8fa;
 }
-.signupPage .submitBtn {
+.sinupPage .submitBtn {
   background: #29b744;
   color: #fff;
   width: 200px;
@@ -26,6 +26,6 @@ body {
   border-radius: 90px;
   transition: opacity 0.5s;
 }
-.signupPage .submitBtn:hover {
+.sinupPage .submitBtn:hover {
   opacity: 0.6;
 }

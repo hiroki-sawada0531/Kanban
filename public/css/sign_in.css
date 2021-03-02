@@ -22,7 +22,7 @@
   border: none;
   margin-top: 20px;
   opacity: 1;
-  transition: opacity, 5s;
+  transition: opacity 0.5s;
   cursor: pointer;
 }
 .signinPage .loginBtn:hover {

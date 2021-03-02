@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return redirect('/');
+        // 「/」 ルートにリダイレクト
+        return redirect('/');   // この行を編集
     }
 }
