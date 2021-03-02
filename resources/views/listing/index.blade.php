@@ -3,7 +3,7 @@
 
 <div class="topPage">
   <div class="listWrapper">
-     @foreach ($listings as $listing)
+      @foreach ($listings as $listing)
       <div class="list">
         <div class="list_header">
           <h2 class="list_header_title">{{ $listing->title }}</h2>
@@ -13,7 +13,7 @@
           </div>
         </div>
       </div>
-     @endforeach
+      @endforeach
   </div>
 </div>
 @endsection

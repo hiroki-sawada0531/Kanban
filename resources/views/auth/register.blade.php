@@ -20,7 +20,7 @@
           @endif
         </div>
         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-           <label for="user_email">メールアドレス</label>
+            <label for="user_email">メールアドレス</label>
           <input class="form-control" placeholder="emailを入力してください" autocomplete="email" type="email" name="email" value="{{ old('email') }}" required>
             @if ($errors->has('email'))
               <span class="help-block">
