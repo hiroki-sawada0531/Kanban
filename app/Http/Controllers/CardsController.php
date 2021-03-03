@@ -27,7 +27,7 @@ class CardsController extends Controller
 
         if($validator->fails())
     {
-        return redirect()->back()->withErrors($validator->error())->withInput();
+        return redirect()->back()->withErrors($validator->errors())->withInput();
     }
 
         $cards = new Card;
@@ -47,7 +47,7 @@ class CardsController extends Controller
 
     public function edit($listing_id, $card_id)
     {
-        $listing = Listing::where('user_id',Auth::user()->id)->get();
+        $listings = Listing::where('user_id',Auth::user()->id)->get();
         $listing = Listing::find($listing_id);
         $card = Card::find($card_id);
         return view('card/edit', ['listings' => $listings, 'listing' => $listing, 'card' => $card]);
