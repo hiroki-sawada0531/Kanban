@@ -41,7 +41,7 @@ https://www.techpit.jp/courses/21
 <br>
 カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
 <br>
-<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=70%>
+<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=80%>
 
 <h3>3.選択しているメモの削除</h3>
 
