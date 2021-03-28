@@ -17,7 +17,7 @@ https://www.techpit.jp/courses/21
 <p align="center">
   <a href="https://laravel.com/"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" width="300px;" /></a>
   <br>
-  <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="80px;" /></a>
+  <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="110px;" /></a>
   &emsp;
   <a href="https://www.mysql.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" height="80px;" /></a>
   &emsp;
