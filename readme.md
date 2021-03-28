@@ -30,18 +30,18 @@ https://www.techpit.jp/courses/21
 
 リストを作成ボタンを押すことでリストを新しく作ることが出来ます。鉛筆ボタンを押すとリスト名を編集出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743469-8c9dfb80-8fd2-11eb-9a61-3a8e1678591a.gif" width=80%>
+<img src="https://user-images.githubusercontent.com/69971751/112743469-8c9dfb80-8fd2-11eb-9a61-3a8e1678591a.gif" width=70%>
 
 <h3>2.メモカードの作成と編集</h3>
 
 ①.さらにカードを追加ボタンを押すことでカードを新しく作ることが出来ます。<br>②.カードのタイトルとメモしたい内容を入力して下さい。<br>③.書き終えたら緑の作成ボタンを押して下さい。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743417-231ded00-8fd2-11eb-811b-6988916eed16.gif" width=80%>
+<img src="https://user-images.githubusercontent.com/69971751/112743417-231ded00-8fd2-11eb-811b-6988916eed16.gif" width=70%>
 
 <br>
 カードの上でクリックをするとカードの内容が閲覧が出来ます。また編集やカードの削除をすることも出来ます。
 <br>
-<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=80%>
+<img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=70%>
 
 <h3>3.選択しているメモの削除</h3>
 
