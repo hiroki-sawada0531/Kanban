@@ -26,11 +26,11 @@ https://www.techpit.jp/courses/21
 
 ## :memo:アプリの機能
 
-<h3>1.新規メモの作成</h3>
+<h3>1.新規リストの作成</h3>
 
-緑のプラスマークボタンを押すことでメモを新しく作ることが出来ます。
+リストを作成ボタンを押すことでリストを新しく作ることが出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112742545-7b50f100-8fca-11eb-9b69-93728229e70c.png" width=50%>
+<img src="https://user-images.githubusercontent.com/69971751/112743257-9888be00-8fd0-11eb-89e5-47c41093d50b.gif" width=50%>
 
 <h3>2.メモのタイトル・本文の作成と保存</h3>
 
