@@ -30,7 +30,7 @@ https://www.techpit.jp/courses/21
 
 リストを作成ボタンを押すことでリストを新しく作ることが出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743257-9888be00-8fd0-11eb-89e5-47c41093d50b.gif" width=50%>
+<img src="https://user-images.githubusercontent.com/69971751/112743295-046b2680-8fd1-11eb-876b-5057fc6817d4.gif" width=80%>
 
 <h3>2.メモのタイトル・本文の作成と保存</h3>
 
