@@ -21,7 +21,7 @@ https://www.techpit.jp/courses/21
   &emsp;
   <a href="https://www.mysql.com/"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" height="80px;" /></a>
   &emsp;
-  <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="80px;" /></a>
+  <a href="https://heroku.com/"><img src="https://brand.heroku.com/static/media/heroku-logo-stroke-white.e83b4856.svg" height="80px;" /></a>
 </p>
 
 ## :memo:アプリの機能
