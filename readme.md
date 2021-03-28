@@ -43,11 +43,11 @@ https://www.techpit.jp/courses/21
 <br>
 <img src="https://user-images.githubusercontent.com/69971751/112743487-bf47f400-8fd2-11eb-9b9a-75b9e0e24316.png" width=80%>
 
-<h3>3.選択しているメモの削除</h3>
+<h3>3.メモの削除</h3>
 
-メモリストの中から削除をしたいメモの上でクリックをするとメモが青くなり選択状態になります。その状態で右上の赤いボタンを押すと選択されたメモが削除されます。
+メモリストのゴミ箱ボタンをクリックをするとウインドウアラートが出て削除をして大丈夫ですか？と聞かれます。削除しても大丈夫ならOKをクリックすることでメモリストが削除されます。
 
-<img src="https://user-images.githubusercontent.com/69971751/111623727-18bf5e80-882e-11eb-94e1-e4d27760ebd4.gif" width=50%>
+<img src="https://user-images.githubusercontent.com/69971751/112743724-ac362380-8fd4-11eb-8758-8903054fced8.gif" width=80%>
 
 ## :pencil2:使用方法(Mac)
 
