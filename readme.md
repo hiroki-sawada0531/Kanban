@@ -1,12 +1,12 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-<h2 align="center">Evernote風メモアプリPHP.ver</h2>
+<h2 align="center">trello風todoタスク管理アプリ</h2>
 
 <img src="https://user-images.githubusercontent.com/69971751/111589944-db94a580-8808-11eb-8612-3a1eac3f0f42.png" width=100%>
 
 ## :clap:参考にした学習教材及び製作者様
-https://www.techpit.jp/courses/132
+https://www.techpit.jp/courses/21
 (※この教材は有料です。)
-<br>講師:yasuaki様
+<br>講師:Mr.T様
 
 ## :octocat:開発環境
 
@@ -33,7 +33,7 @@ https://www.techpit.jp/courses/132
 
 緑のプラスマークボタンを押すことでメモを新しく作ることが出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/111601562-d2f69c00-8815-11eb-9d79-a1a9978bd238.gif" width=50%>
+<img src="https://user-images.githubusercontent.com/69971751/112742545-7b50f100-8fca-11eb-9b69-93728229e70c.png" width=50%>
 
 <h3>2.メモのタイトル・本文の作成と保存</h3>
 
