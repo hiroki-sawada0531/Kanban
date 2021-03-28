@@ -49,33 +49,12 @@ https://www.techpit.jp/courses/21
 
 <img src="https://user-images.githubusercontent.com/69971751/112743724-ac362380-8fd4-11eb-8758-8903054fced8.gif" width=80%>
 
-## :pencil2:使用方法(Mac)
+## :pencil2:使用方法
 
-1.Dockerの導入
+サイトURLにログイン
 <br>
-https://www.docker.com/get-started
-からDockerをダウンロード。
+http://kanban-board-0531.herokuapp.com/
+からアプリのログイン画面に移動します。
 <br>
-
-2.dockerコマンドとdocker-composeコマンドの確認
-<br>
-```docker -v``` ```docker-compose -v```
-<br>
-
-3.開発環境とプロジェクトのクローン
-<br>
-```git clone https://github.com/hiroki-sawada0531/EvernoteLikeApp-PHP.ver.git```
-<br>
-
-4.開発環境を立ち上げ
-<br>
-```cd docker_simple_memo_php``` git cloneをしてきたディレクトリの直下まで移動。
-<br>
-```docker-compose -f .docker_memo/docker-compose.yml up -d``` ... doneが４つ表示されればOK。
-<br>
-
-4.サイトにアクセス
-<br>
-http://localhost:8080/login/ or http://localhost:8080/
-にアクセスする。
+ゲストログイン用メールアドレスtest@example.comとパスワード000000を入力してログインします。
 
