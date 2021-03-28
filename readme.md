@@ -8,23 +8,20 @@ https://www.techpit.jp/courses/21
 <br>講師:Mr.T様
 
 ## :octocat:開発環境
-
+- Laravel Framework 5.5.50
 - PHP 7.3.11
 - MySQL 8.0.21
-- Laravel Framework 5.5.50
 - heroku
 - VSCode（Visual Studio Code）
 
 <p align="center">
-  <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+  <a href="https://www.php.net/"><img src="https://laravel.com/assets/img/components/logo-laravel.svg" width="300px;" /></a>
   <br>
-  <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="120px;" /></a>
-  <br>
-  <a href="https://www.docker.com/"><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" height="60px;" /></a>
+  <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="80px;" /></a>
   &emsp;
-  <a href="https://www.phpmyadmin.net/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="60px;" /></a>
+  <a href="https://www.phpmyadmin.net/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/PhpMyAdmin_logo.png" height="80px;" /></a>
   &emsp;
-  <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="60px;" /></a>
+  <a href="https://www.nginx.com/"><img src="https://www.nginx.com/wp-content/uploads/2020/05/NGINX-product-icon.svg" height="80px;" /></a>
 </p>
 
 ## :memo:アプリの機能
