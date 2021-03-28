@@ -1,7 +1,7 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 <h2 align="center">trello風todoタスク管理アプリ</h2>
 
-<img src="https://user-images.githubusercontent.com/69971751/111589944-db94a580-8808-11eb-8612-3a1eac3f0f42.png" width=100%>
+<img src="https://user-images.githubusercontent.com/69971751/112742545-7b50f100-8fca-11eb-9b69-93728229e70c.png" width=100%>
 
 ## :clap:参考にした学習教材及び製作者様
 https://www.techpit.jp/courses/21
