@@ -1,4 +1,3 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 <h2 align="center">trello風todoタスク管理アプリ</h2>
 
 <img src="https://user-images.githubusercontent.com/69971751/112742545-7b50f100-8fca-11eb-9b69-93728229e70c.png" width=100%>
@@ -10,14 +9,15 @@ https://www.techpit.jp/courses/21
 
 ## :octocat:開発環境
 
-- PHP 7.4.10
-- Docker 19
-- docker-compose 1.27
-- nginx 1.19.1
-- phpMyAdmin 5.0
+- PHP 7.3.11
+- MySQL 8.0.21
+- Laravel Framework 5.5.50
+- heroku
 - VSCode（Visual Studio Code）
 
 <p align="center">
+  <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+  <br>
   <a href="https://www.php.net/"><img src="https://www.php.net/images/logos/new-php-logo.png" width="120px;" /></a>
   <br>
   <a href="https://www.docker.com/"><img src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png" height="60px;" /></a>
