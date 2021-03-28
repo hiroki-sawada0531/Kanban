@@ -28,15 +28,15 @@ https://www.techpit.jp/courses/21
 
 <h3>1.新規リストの作成</h3>
 
-リストを作成ボタンを押すことでリストを新しく作ることが出来ます。
+リストを作成ボタンを押すことでリストを新しく作ることが出来ます。鉛筆ボタンを押すとリスト名を編集出来ます。
 
-<img src="https://user-images.githubusercontent.com/69971751/112743295-046b2680-8fd1-11eb-876b-5057fc6817d4.gif" width=80%>
+<img src="https://user-images.githubusercontent.com/69971751/112743469-8c9dfb80-8fd2-11eb-9a61-3a8e1678591a.gif" width=80%>
 
-<h3>2.メモのタイトル・本文の作成と保存</h3>
+<h3>2.メモカードの作成</h3>
 
 I.メモタイトルと本文はそれぞれ"新規メモ"と"内容を入力する"の上でクリックすることで入力することが出来ます。<br>II.タイトルはデフォルトで"新規メモ"と入力されているので消去してから使ってください。<br>Ⅲ.書き終えたら右上の緑の更新ボタンを押して下さい。<br>Ⅳ.既に編集済みのメモへの変更も同様にして更新することが出来ます。<br>Ⅴ.最後に更新したメモが一番上に表示される様になっています。
 
-<img src="https://user-images.githubusercontent.com/69971751/111622573-b4e86600-882c-11eb-8040-8fd27d5562fa.gif" width=50%>
+<img src="https://user-images.githubusercontent.com/69971751/112743417-231ded00-8fd2-11eb-811b-6988916eed16.gif" width=80%>
 
 <h3>3.選択しているメモの削除</h3>
 
