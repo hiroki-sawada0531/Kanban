@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/69971751/112742545-7b50f100-8fca-11eb-9b69-93728229e70c.png" width=100%>
 
-## :clap:参考にした学習教材及び製作者様
+## :clap:学習教材と製作者様
 https://www.techpit.jp/courses/21
 (※この教材は有料です。)
 <br>講師:Mr.T様
